@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#card{
+    background-color: #fff;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#storiyan{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid rgba(159, 25, 159, 0.667);
+    padding: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#storiyan::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 3px solid red;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
